@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "header">
+            <div class="invoice-name "> <h1> Invoice</h1> </div>
+            <div class="address ">
+                <p>Greater Holdings <br/>
+                   P.O Box 547 - 00101 <br/>
+                   Nairobi <br/>
+                   Kenya <br/>
+                   Tel: +254 797300300
+                </p>
+            </div>
+    </div>
+
+    
+
+     <div class= "client">
+        
+        <div class="client-address">
+            <h2>BILL TO:</h2>
+            <p>
+                Wilmer Group Ltd<br/>
+                P.O Box 65891 - 20400 <br/>
+                Nakuru <br/>
+                Kenya <br/>
+                Tel: +254 722570750 
+            </p>
+        </div>
+        <div class="invoice-number">
+            <div class="invoice-section">
+                <div class="label">INVOICE #</div>
+                <div class="value">Invoice number: GR240006</div>
+            </div>
+            <div class="invoice-section">
+                <div class="label">DATE</div>
+                <div class="value">04.March.2024</div>
+            </div>
+            <div class="invoice-section">
+                <div class="label">INVOICE DUE DATE</div>
+                <div class="value">06.March.2024</div>
+            </div>
+        </div>
+
+    </div> 
+    <hr/>
+
+    <div class="description" >
+        <table class="invoice-table" >
+            <tr>
+                <th class="two-side">ITEMS</th>
+                <th class="two-side">DESCRIPTION</th>
+                <th class="three-side">QUANTITY</th>
+                <th class="three-side">WEIGHT</th>
+                <th class="three-side">PRICE</th>
+                <th class="three-side amount">AMOUNT</th>
+            </tr>
+           
+            <tr>
+                <td class="two-side">Flour</td>
+                <td class="two-side">Ajab</td>
+                <td class="three-side">2</td>
+                <td class="three-side">2 kgs</td>
+                <td class="three-side">201</td>
+                <td class="three-side amount">402</td>
+            </tr>
+
+            <tr>
+                <td class="two-side">Margarine</td>
+                <td class="two-side">Prestige</td>
+                <td class="three-side">1</td>
+                <td class="three-side">10 kgs</td>
+                <td class="three-side">2000</td>
+                <td class="three-side amount">2000</td>
+            </tr>
+
+            <tr>
+                <td class="two-side">Sugar</td>
+                <td class="two-side">Caster</td>
+                <td class="three-side">4</td>
+                <td class="three-side">500 g</td>
+                <td class="three-side">120</td>
+                <td class="three-side amount">480</td>
+            </tr>
+
+            <tr>
+                <td class="two-side">Cooking oil</td>
+                <td class="two-side">Sunflower</td>
+                <td class="three-side">1</td>
+                <td class="three-side">3 kgs</td>
+                <td class="three-side">435</td>
+                <td class="three-side amount">1305</td>
+            </tr>
+
+            <tr>
+                <td class="two-side">Vanilla</td>
+                <td class="two-side">Delilla</td>
+                <td class="three-side">3</td>
+                <td class="three-side">2 kgs</td>
+                <td class="three-side">500</td>
+                <td class="three-side amount">1500</td>
+            </tr>
+        </table>
+        
+   </div>
+    
+   <hr/>
+   <div class="total">
+    <!-- <h2 class="before-tax">SUBTOTAL:</h2>
+    <p class="before-tax"> 5687/-</p> -->
+    <div class="tax">
+        <p class="tax-total"> SUBTOTAL: </p>
+        <p class="before-tax">5687/-</p>
+    </div>
+    <div class="tax">
+        <p class="tax-total"> Tax: </p>
+        <p class="before-tax">909.92/-</p>
+    </div>
+    <div class="tax">
+        <p class="tax-total">Total:</p>
+        <p class="before-tax" style="font-weight: bold;">6596.92/- </p>
+    </div> 
+   </div>
+
+   
+   
+
+   <div class="disc">
+    <p class="disclaimer"> Goods once sold shall not be returned</p>
+   </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js" charset="UTF-8" ></script>
+</body>
+</html>
